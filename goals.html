@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="main.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="animate.css" media="screen"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+      $(document).ready(function() {
+          $(".show-more").click(function() {
+              $(".initially-hidden").show();
+          });
+      });
+  </script>
+  <title>Goals</title>
+</head>
+
+<body>
+  <div class="navigation">
+    <ul>
+      <li><a href="index.html">Home</a>
+      </li>
+      <li><a href="history.html">History</a>
+      </li>
+      <li class="current"><a href="goals.html">Goals</a>
+      </li>
+    </ul>
+    <div class="goals-container">
+      <h2>Goals</h2>
+        <h3>
+            To graduate the galvanize program as a competent developer. With great habits.
+        </h3>
+        <h3>
+            To help my others in my cohort succeed in their coding journey.
+        <h3>
+            Maybe make a friend or two!
+        </h3>
+      </div>
+      <div class="button-div">
+          <button class="show-more">Click For More</button>
+      <div class="initially-hidden">
+        <h2>LETS DO THIS EVERYONE!</h2>
+        <img src="jwimages/giphy.gif" class="item final-gif"/>
+    </div>
+
+  </body>
+</html>
